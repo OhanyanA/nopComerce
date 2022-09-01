@@ -19,6 +19,5 @@ class commonCommands {
     static assertion(value){
         cy.contains(value).should("be.visible")
     }
-    //  cy.get('#input-country').select([2])
 }
 export default commonCommands
