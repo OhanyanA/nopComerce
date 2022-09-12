@@ -7,6 +7,11 @@ export const Elements =()=> {
         email:"#Email",
         password:"#Password",
         confirmPassword:"#ConfirmPassword",
-        registerBtn:"#register-button"
+        registerBtn:"#register-button",
+        logOutIcon:".ico-logout",
+        logInIcon:".ico-login",
+        emailLogIn: "#Email",
+        passwordLogIn: "#Password",
+        logInBtn: ".button-1.login-button",
     }
 }

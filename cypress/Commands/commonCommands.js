@@ -19,5 +19,11 @@ class commonCommands {
     static assertion(value){
         cy.contains(value).should("be.visible")
     }
+    static reload(page){
+        cy.reload(page)
+    }
+    static scroll(distance){
+        cy.scrollTo(distance)
+    }
 }
 export default commonCommands
